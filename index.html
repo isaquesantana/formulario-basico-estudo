@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Formulário de Orçamento</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+            <div class="areaForm">
+                <h1 class="title">Solicite Um Orçamento</h1>
+                <div class="barTitle"></div>
+
+                <div class="areaInfos">
+                    <form action="#" method="get">
+                        <div class="areaInfos-Line01 areaInfos-Lines">
+                            <label class="label-Line01">
+                                <p class="idCampo">Nome</p>
+                                <input class="inputArea atributos-padrao" type="text" name="nome" required>
+                            </label>
+                            <div class="spaceBetween-Label"></div>
+                            <label class="label-Line01">
+                                <p class="idCampo">Sobrenome</p>
+                                <input class="inputArea atributos-padrao" type="text" name="sobrenome">
+                            </label>
+                        </div>
+                        <div class="areaInfos-Line02 areaInfos-Lines">
+                            <label>
+                                <p class="idCampo">E-mail</p>
+                                <input class="inputArea inputArea-Email atributos-padrao" type="email" name="email" required>
+                            </label>
+                        </div>
+                        
+                        <div class="areaInfos-Line03 areaInfos-Lines">
+                            <dvi class="div-interna-line03">                                
+                                <div><label class="idCampo" for="tel">Telefone</label></div>
+                                <div class="div-interna-line03-tel">
+                                    <select class="selectPais atributos-padrao" name="pais">
+                                        <option value="1">+55</option>
+                                        <option value="2">+54</option>
+                                    </select>
+                                    <input class="inputTel atributos-padrao" name="tel" id="tel">
+                                </div>
+                            </dvi>
+
+                            <div class="spaceBetween-Label"></div>
+
+                            <div class="div-interna-line03">
+                                <label class="label-Line03">
+                                    <p class="idCampo">Serviço</p>
+                                    <select class="selectServico atributos-padrao" name="servico">
+                                        <option value="1">Site</option>
+                                        <option value="2">E-commerce</option>
+                                        <option value="3">Aplicativo</option>
+                                    </select>
+                                </label>
+                            </div>                            
+                        </div>
+                        
+                        <div class="areaInfos-Lines">
+                            <label class="">
+                                <p class="idCampo">Descrição</p>
+                                <textarea class="descricao atributos-padrao" name="descricao" placeholder="Fale um pouco sobre a sua empresa e o que espera ter no seu site."></textarea>
+                            </label>
+                        </div>
+
+                        <div class="areaInfos-Lines">
+                            <label class="quest-Contato">
+                                <input type="checkbox" name="contato-via-whatsapp" value="sim">
+                                Aceito receber contato via chamada ou whatsapp.
+                            </label>
+                        </div>
+
+                        <div class="button-Enviar"><button>Enviar</button></div>
+                        
+                    </form>
+                </div>
+                
+            </div>
+
+            <div class="areaImage">
+                <img class="image" src="assets/imagens/imagem-1.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    
+    <div>
+        <p class="rodape">@Copyrigth 2023 - Todos os direitos reservados a Isaque Santana</p>
+    </div>
+</body>
+</html>
+

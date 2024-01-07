@@ -1,0 +1,8 @@
+/* Color Theme Swatches in Hex */
+.Irish-Green-Porsche-356SC-1-hex { color: #00060D; }
+.Irish-Green-Porsche-356SC-2-hex { color: #011826; }
+.Irish-Green-Porsche-356SC-3-hex { color: #014034; }
+.Irish-Green-Porsche-356SC-4-hex { color: #025939; }
+.Irish-Green-Porsche-356SC-5-hex { color: #17A655; }
+
+
