@@ -1,6 +1,6 @@
 Projeto de Estudos / Study Project
 
-pt
+pt <br>
 Projeto de estudo feito desde a criação do layout no Figma até o desenvolvimento com o HTML e CSS.
 
 en
